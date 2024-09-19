@@ -1,4 +1,5 @@
 import { Router } from "express";
+import verifyToken from "../middlewares/verify-token";
 import authRouter from './authentication'
 
 
